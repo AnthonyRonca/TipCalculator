@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B205456721FD9D2F00E33DB6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B205456521FD9D2F00E33DB6 /* SettingsViewController.swift */; };
 		B2161D3321F93C0100B607E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2161D3221F93C0100B607E6 /* AppDelegate.swift */; };
 		B2161D3521F93C0100B607E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2161D3421F93C0100B607E6 /* ViewController.swift */; };
 		B2161D3821F93C0100B607E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2161D3621F93C0100B607E6 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		B2161D3D21F93C0300B607E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2161D3B21F93C0300B607E6 /* LaunchScreen.storyboard */; };
 		B2161D4821F93C0300B607E6 /* quickTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2161D4721F93C0300B607E6 /* quickTipTests.swift */; };
 		B2161D5321F93C0300B607E6 /* quickTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2161D5221F93C0300B607E6 /* quickTipUITests.swift */; };
+		B23EE37721FE42EF00D03CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2161D3621F93C0100B607E6 /* Main.storyboard */; };
+		B23EE37821FE42F000D03CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2161D3621F93C0100B607E6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B205456621FD9D2F00E33DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = quickTip/Base.lproj/SettingsViewController.swift; sourceTree = "<group>"; };
 		B2161D2F21F93C0100B607E6 /* quickTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2161D3221F93C0100B607E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2161D3421F93C0100B607E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		B2161D2621F93C0100B607E6 = {
 			isa = PBXGroup;
 			children = (
+				B205456521FD9D2F00E33DB6 /* SettingsViewController.swift */,
 				B2161D3121F93C0100B607E6 /* quickTip */,
 				B2161D4621F93C0300B607E6 /* quickTipTests */,
 				B2161D5121F93C0300B607E6 /* quickTipUITests */,
@@ -239,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23EE37721FE42EF00D03CA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23EE37821FE42F000D03CA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				B2161D3521F93C0100B607E6 /* ViewController.swift in Sources */,
 				B2161D3321F93C0100B607E6 /* AppDelegate.swift in Sources */,
+				B205456721FD9D2F00E33DB6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +301,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		B205456521FD9D2F00E33DB6 /* SettingsViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B205456621FD9D2F00E33DB6 /* Base */,
+			);
+			name = SettingsViewController.swift;
+			sourceTree = "<group>";
+		};
 		B2161D3621F93C0100B607E6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

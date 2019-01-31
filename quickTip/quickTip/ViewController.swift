@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     // UI Elements
     
+    
+    @IBOutlet weak var Settings: UIBarButtonItem!
+    
     @IBOutlet weak var billAmountLabel: UITextField!  //  Stores user's bill amount
     
     @IBOutlet weak var tipAmountLabel: UITextField!  //  Stores tip to be calculated
@@ -21,10 +24,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tipControl: UISegmentedControl!
     
+    @IBOutlet weak var TopTitle: UINavigationItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.title = "Tip Calculator"
+        
     }
 
     @IBAction func onTap(_ sender: Any) {
@@ -32,6 +39,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
         
     }
+    
     
     @IBAction func billAmount(_ sender: Any) {
         
@@ -49,12 +57,17 @@ class ViewController: UIViewController {
         let tip = bill * tipPercentage[tipControl.selectedSegmentIndex];
         let total = bill + tip
         
+        
         // upda te amount when new input is entered
         
         tipAmountLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
     }
+    
+    
+    
+    
     
     
 }
